@@ -14,8 +14,10 @@
 ### Refactoring
 * While I originally had working code, it was slightly inefficient. The total volume, starting, and ending values for each ticker became arrays during refactoring. This allowed for the code to loop through the data once then output the results after collecting each individual value. Compare the for loop in the original code to the use of arrays in the refactored code.
 
-![green_stocks_for_loop.png](green_stocks_for_loop.png)
-![refactored_code.png](refactored_code.png)
+#### Original Code
+![green_stocks_for_loop.png](Resources/green_stocks_for_loop.png)
+#### Refactored Code
+![refactored_code.png](Resources/refactored_code.png)
 
 ### Run Times
 * Before refactoring, the code took about 0.6 seconds to find the total daily volume and return for each ticker. After refactoring, it took about a tenth of this time. This proves that the refactored code is far more efficient. The first two images show the run times for the original code, while the second two images show the run times for the refactored code.
