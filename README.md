@@ -6,7 +6,7 @@
 ## Results
 
 ### Stock Analysis
-* Most environmental stocks made money in 2017, but lost money in 2018. While TERP was the only stock that lost money in 2017, it performed better in 2018, though still losing money. The only two stocks that continued to make money in 2018 also were the two most active in 2018. These were ENPH and RUN with over 80% return each. This is not a suprprise for ENPH, as its 129.5% return was the third highest in 2017. However, RUN only had a 5.5% return in 2017.
+* Most environmental stocks made money in 2017, but lost money in 2018. While TERP was the only stock that lost money in 2017, it performed better in 2018, though still losing money. The only two stocks that continued to make money in 2018 also were the two most active in 2018. These were ENPH and RUN with over 80% return each. This is not a suprprise for ENPH, as its 129.5% return was the third highest in 2017. However, RUN only had a 5.5% return in 2017. If I were to pick a single environmental stock to invest in, I would choose RUN. It's jump in return between 2017 and 2018 despite an overall downwards trend during this year indicates that there has been a positive recent development that warrants further research.
 
 ![2017_Results.png](Resources/2017_Results.png)
 ![2018_Results.png](Resources/2018_Results.png)
@@ -26,4 +26,6 @@
 ![green_stocks_2018.png](Resources/green_stocks_2018.png)
 ![VBA_Challenge_2017.png](Resources/VBA_Challenge_2017.png)
 ![VBA_Challenge_2018.png](Resources/VBA_Challenge_2018.png)
+
 ## Summary
+* Refactoring code is important, as it allows for your code to run much more efficiently. This is important when considering the fact that you may be analyzing data on a very large scale. An inefficient code will leave you waiting much longer for your results. Even when looking at our small scale environmental stocks analysis, the refactored code reduced the run time to a tenth of its original size. Efficient code is espescially important if it is going to be sent to a user interface, as it is the difference between users feeling that they got their results instantaneously and percieving the delay. With that being said, refactoring code does take time. This project's refactored code required a lot of debugging before it could work properly. Because the analysis was on such a small scale, I do not believe that the refactored code was necessary, as the original code still analyzed the data in under a second. Refactored code becomes more essential once the data pool gets bi
